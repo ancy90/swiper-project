@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+         <head>
+                <title>3D SWIPE SLIDER</title>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width" initial-scale=1 min-scale=1 max-scale=1>        
+                <link rel="stylesheet" type="text/css" href="swiper.min.css">
+                <link rel="stylesheet" type="text/css" href="style.css">
+
+         </head>
+
+         <body>
+             <div class="introduction-heading">
+              <span class="border"> The Top Five Shows on Netflix Right Now</span>
+             </div>
+             <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                            
+                        
+                        
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="pic1.jpg">
+                            </div>
+                            <div class="details">
+                             <h3>Jane The virgin <br>  <span>Drama - 5 seasons</span></h3>
+                            </div>
+                        </div>
+
+
+                        
+                        
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="pic5.jpg">
+                            </div>
+                            <div class="details">
+                           <h3> Lucifer <br><span>mystery - 4 Seasons</span> </h3>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="pic4.jpg">
+                            </div>
+                            <div class="details">
+                               <h3>Great News<br> <span>Sitcom - 2 Seasons</span> </h3>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="pic2.jpg">
+                            </div>
+                            <div class="details">
+                              <h3> Good Girls <br><span>Drama - 2 Seasons</span> </h3>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                             <img src="gd.jpg">
+                            </div>
+                            <div class="details">
+                            <h3>The Good Place<br><span>sitcom - 4 Seasons</span></h3>
+                            </div>
+                        </div>                                                           
+                     </div>
+
+                       
+                 <!-- pagination-->
+                     <div class="swiper-pagination"></div>
+                    </div>
+
+
+               <script type="text/javascript" src="swiper.min.js"></script>
+               <script>
+               var swiper = new Swiper('.swiper-container',{
+                   effect:'coverflow',
+                   grabCursor:true,
+                   centeredSlides: true,
+                   slidesPerView:'auto',
+                   coverflowEffect:{
+                       rotate:60,
+                       stretch:0,
+                       depth:500,
+                       modifier:1,
+                       slideShadows:true
+                       },
+                       pagination:{
+                           el:'.swiper-pagination',
+                           },
+                   
+               });
+            
+               
+
+            </script>
+                
+         </body>
+</html>
